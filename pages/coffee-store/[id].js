@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-const CoffeeStore = () => {
+const CoffeeStore = (props) => {
   const router = useRouter()
 
   return <div>Coffee Store Page Details</div>
